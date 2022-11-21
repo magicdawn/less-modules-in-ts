@@ -1,7 +1,5 @@
 {
-  "include": [
-    "src/**/*"
-  ],
+  "include": ["src/**/*"],
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
@@ -10,11 +8,15 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "target": "es2019",
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
   },
   "ts-node": {
-    "transpileOnly": true,
-    "swc": true,
-    "transpiler": "ts-node/transpilers/swc-experimental"
+    "swc": true
   }
 }

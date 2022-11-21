@@ -1,1 +1,3 @@
-console.log('Hello TypeScript ~')
+export function css(...args: any): any {
+  //
+}
