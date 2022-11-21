@@ -1,7 +1,6 @@
 {
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "demo/**/*"],
   "compilerOptions": {
-    "rootDir": "src",
     "outDir": "lib",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
